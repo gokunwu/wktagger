@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="geniatagger" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/geniatagger" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/geniatagger" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="LICENSE" />
+		<Unit filename="Makefile" />
+		<Unit filename="README" />
+		<Unit filename="bidir.cpp" />
+		<Unit filename="bidir.o" />
+		<Unit filename="blmvm.cpp" />
+		<Unit filename="blmvm.h" />
+		<Unit filename="blmvm.o" />
+		<Unit filename="chunking.cpp" />
+		<Unit filename="chunking.o" />
+		<Unit filename="common.h" />
+		<Unit filename="double_metaphone.cpp" />
+		<Unit filename="double_metaphone.h" />
+		<Unit filename="featureUtil.cpp" />
+		<Unit filename="featureUtil.h" />
+		<Unit filename="geniatagger" />
+		<Unit filename="geniatagger.cbp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="main.o" />
+		<Unit filename="maxent.cpp" />
+		<Unit filename="maxent.h" />
+		<Unit filename="maxent.o" />
+		<Unit filename="morph.cpp" />
+		<Unit filename="morph.o" />
+		<Unit filename="namedentity.cpp" />
+		<Unit filename="namedentity.o" />
+		<Unit filename="nohup.out" />
+		<Unit filename="postag.cpp" />
+		<Unit filename="tagDictionary.cpp" />
+		<Unit filename="tagDictionary.h" />
+		<Unit filename="tokenize.cpp" />
+		<Unit filename="tokenize.o" />
+		<Unit filename="train.pos.cikuu" />
+		<Unit filename="wordClusterPath.cpp" />
+		<Unit filename="wordClusterPath.h" />
+		<Unit filename="wordClusterPath.o" />
+		<Unit filename="wordListFeatures.cpp" />
+		<Unit filename="wordListFeatures.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

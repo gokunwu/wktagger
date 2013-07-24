@@ -1,0 +1,5 @@
+Statistics of POS result:
+					Total words: 44908	Known words: 44240	Unknown words: 668
+					Total acc: 96.28%	Known acc: 96.51%	Unknown acc: 80.99%
+					Total sentences: 2242	Correct sentences: 1119	Sent acc:49.91%
+					
